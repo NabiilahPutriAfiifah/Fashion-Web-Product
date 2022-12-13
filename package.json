@@ -1,0 +1,15 @@
+{
+  "name": "tugas-pertemuan-11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Chart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.0.1"
+  }
+}
