@@ -9,29 +9,6 @@ if (!isset($_SESSION["username"])) {
     $_SESSION['msg'] = 'Anda harus login untuk mengakses halaman ini';
     header('Location: login.php');
 }
-
-// $fashion = getter("SELECT * FROM fashion");
-
-// $jumlahdata = count($fashion);
-// $batas = 3;
-// $banyaknyahalaman = ceil($jumlahdata / $batas);
-
-// $halaman = 1;
-// if (isset($_GET['halaman'])) {
-//     $halaman = $_GET['halaman'];
-// }
-
-// $posisi = ($halaman - 1) * $batas;
-
-// if (isset($_POST['cari'])) {
-//     if (search($_POST['search']) > 0) {
-//         $fashion = search($_POST['search']);
-//     } else {
-//         $fashion = getter("SELECT * FROM fashion LIMIT $posisi,$batas");
-//     }
-// } else {
-//     $fashion = getter("SELECT * FROM fashion LIMIT $posisi,$batas");
-// }
 ?>
 
 
